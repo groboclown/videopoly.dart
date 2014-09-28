@@ -1,0 +1,17 @@
+name: videopoly
+version: 0.1.0
+author: Groboclown <matt@groboclown.net>
+description: A pub package
+homepage: https://github.com/groboclown/videopoly.dart
+environment:
+  sdk: 1.6.0
+dev_dependencies:
+  analyzer: '>=0.10.0 <0.20.0'
+dependencies:
+  polymer: '>=0.15.0 <0.16.0'
+  videoplay: '>=0.2.0 <1.0.0'
+transformers:
+- polymer:
+    entry_points:
+      - example/direct-video/index.html
+      - example/select-video/index.html

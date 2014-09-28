@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+    
+    <link rel="import" href="packages/videopoly/videopoly.html">
+    
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    
+    <title>direct-video Example</title>
+  </head>
+
+  <body>
+  
+  
+    <h1>A YouTube Video</h1>
+    
+    <video-player
+        provider="youtube"
+        video="tlcWiP7OLFI"></video-player>
+       
+       
+    <h1>An HTML 5 Video</h1>
+    
+    <!--
+    HTML 5 videos use a URI as the video ID.  This can be relative if your
+    site is hosting the file, or an absolute URL if you're using someone
+    else's video.  Note that you don't need to use the file extension
+    -->
+    <video-player
+        provider="html5"
+        videoId="http://techslides.com/demos/sample-videos/small"
+        width="320" height="200"></video-player>
+  </body>
+</html>
