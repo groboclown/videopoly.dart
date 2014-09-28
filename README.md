@@ -41,9 +41,9 @@ The tag supports these attributes:
   by the underlying
   [videoplay.dart](https://github.com/groboclown/videoplay.dart)
   library.  Version 0.2.0 allows for:
-    * `youtube`
-    * `html5`
-* `video` - the video ID, specific by the provider.
+    * `youtube` - a YouTube video
+    * `html5` - an HTML 5 compatible video
+* `video` - the video ID, which the provider defines.
 * `width` - the video player width.  Defaults to the default size defined by
   the provider
 * `height` - the video player height.  Defaults to the default size defined by
