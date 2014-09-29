@@ -14,3 +14,7 @@ However, it only allows access to the limited, global attributes:
 * **video** - the played video ID.  The value expected depends upon the
   selected `provider`.
 
+Note that this uses `<video-player>`.  If you instead use `<video>`, then
+you'll be referencing HTML 5 videos directly, with its own usage that's
+completely different.
+
