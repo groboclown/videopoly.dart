@@ -8,7 +8,7 @@ To embed a video in your Dart page, you need to add the `videopoly.dart`
 project into your project's `pubspec.yaml` file:
 
     dependencies:
-        videopoly: ">=0.1.0 <0.2.0"
+        videopoly: ">=0.1.1 <0.2.0"
 
 Install the package
 
@@ -43,6 +43,8 @@ The tag supports these attributes:
   library.  Version 0.2.0 allows for:
     * `youtube` - a YouTube video
     * `html5` - an HTML 5 compatible video
+    * `vimeo` - a Vimeo video
+    * `twitch` - a Twitch video
 * `video` - the video ID, which the provider defines.
 * `width` - the video player width.  Defaults to the default size defined by
   the provider
