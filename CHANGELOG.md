@@ -4,11 +4,11 @@
 
 **::Overview::**
 
-(no changes yet)
+Description updates.
 
 **::Details::**
 
-(no changes yet)
+* Updated project description
 
 ## 0.1.1
 
