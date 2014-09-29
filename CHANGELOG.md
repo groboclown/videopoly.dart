@@ -1,5 +1,15 @@
 # Change History for videopoly.dart
 
+## 0.1.2
+
+**::Overview::**
+
+(no changes yet)
+
+**::Details::**
+
+(no changes yet)
+
 ## 0.1.1
 
 **::Overview::**
