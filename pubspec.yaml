@@ -1,5 +1,5 @@
 name: videopoly
-version: 0.1.2
+version: 0.1.3
 author: Groboclown <matt@groboclown.net>
 description: Polymer custom element for embedding different video players into your Dart project.
 homepage: https://github.com/groboclown/videopoly.dart

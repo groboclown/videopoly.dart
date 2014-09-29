@@ -2,9 +2,9 @@
 
 Polymer custom element for embedding different video players into your Dart project.
 
-_Current stable version: 0.1.1_
+_Current stable version: 0.1.2_
 
-_Version under development: 0.1.2_
+_Version under development: 0.1.3_
 
 ## Embedding a video
 
@@ -12,7 +12,7 @@ To embed a video in your Dart page, you need to add the `videopoly.dart`
 project into your project's `pubspec.yaml` file:
 
     dependencies:
-        videopoly: ">=0.1.1 <0.2.0"
+        videopoly: ">=0.1.2 <0.2.0"
 
 Install the package
 
